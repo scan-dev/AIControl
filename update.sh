@@ -48,8 +48,8 @@ else
     NC='\033[0m'
 fi
 
-BRANCH="${OPENCODE_BRANCH:-main}"
-REPO_URL="https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/${BRANCH}"
+BRANCH="${OPENCODE_BRANCH:-vmlab}"
+REPO_URL="https://raw.githubusercontent.com/scan-dev/AIControl/${BRANCH}"
 
 # CLI argument for custom install dir (overrides env var)
 CUSTOM_INSTALL_DIR=""
