@@ -44,9 +44,9 @@ else
 fi
 
 # Configuration
-REPO_URL="https://github.com/darrenhinde/OpenAgentsControl"
-BRANCH="${OPENCODE_BRANCH:-main}"  # Allow override via environment variable
-RAW_URL="https://raw.githubusercontent.com/darrenhinde/OpenAgentsControl/${BRANCH}"
+REPO_URL="https://github.com/scan-dev/AIControl"
+BRANCH="${OPENCODE_BRANCH:-vmlab}"  # Allow override via environment variable
+RAW_URL="https://raw.githubusercontent.com/scan-dev/AiControl/${BRANCH}"
 
 # Registry URL - supports local fallback for development
 # Priority: 1) REGISTRY_URL env var, 2) Local registry.json, 3) Remote GitHub
