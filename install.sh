@@ -90,7 +90,7 @@ print_header() {
     echo -e "${CYAN}${BOLD}"
     echo "╔════════════════════════════════════════════════════════════════╗"
     echo "║                                                                ║"
-    echo "║           OpenAgents Control Installer v1.0.0                 ║"
+    echo "║           OpenAgents Control Installer v1.0.0                  ║"
     echo "║                                                                ║"
     echo "╚════════════════════════════════════════════════════════════════╝"
     echo -e "${NC}"
